@@ -1,0 +1,25 @@
+https://developer.github.com/v4/explorer/
+
+
+{
+repository(name: "graphq", owner: "facebook"){
+  id
+  description
+  homepageUrl
+}
+}
+
+
+# aliases with the same owner
+{
+ qraphqlProject: repository(name: "graphql", owner: "facebook"){
+  id 
+  description
+  homepageUrl
+}
+  reactProject: repository(name: "react", owner: "facebook"){
+  id 
+  description
+  homepageUrl
+}
+}
