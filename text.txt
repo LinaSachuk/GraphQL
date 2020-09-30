@@ -23,3 +23,20 @@ repository(name: "graphq", owner: "facebook"){
   homepageUrl
 }
 }
+
+# aliases with the fragments
+{
+ qraphqlProject: repository(name: "graphql", owner: "facebook"){
+  ...repoFields
+}
+  reactProject: repository(name: "react", owner: "facebook"){
+  ...repoFields
+}
+}
+
+
+fragment repoFields on Repository {
+  id 
+  description
+  homepageUrl
+}
