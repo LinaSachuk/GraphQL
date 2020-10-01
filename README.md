@@ -15,3 +15,8 @@ In this course, learn how to get started with GraphQL. It walks through the basi
 9. Adding variables for argument values
 10. Creating mutations
 11. Adding a reaction mutation
+
+# Skills covered in this course
+GraphQL
+Application Programming Interfaces
+Back-End Web Development
