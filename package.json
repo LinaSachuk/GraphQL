@@ -4,7 +4,8 @@
   "description": "GraphQL—a query language for APIs that was originally built by Facebook—allows developers to choose the kinds of requests they want to make, and receive information on multiple facets of that query in one request. The GraphQL approach to querying across networks can address a wide variety of large-scale development problems.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon ./index.js --exec babel-node -e js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,14 @@
   "bugs": {
     "url": "https://github.com/LinaSachuk/GraphQL/issues"
   },
-  "homepage": "https://github.com/LinaSachuk/GraphQL#readme"
+  "homepage": "https://github.com/LinaSachuk/GraphQL#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^2.0.4"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-stage-0": "^6.24.1"
+  }
 }
