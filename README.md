@@ -17,6 +17,6 @@ In this course, learn how to get started with GraphQL. It walks through the basi
 11. Adding a reaction mutation
 
 # Skills covered in this course
-GraphQL
-Application Programming Interfaces
-Back-End Web Development
+1. GraphQL
+2. Application Programming Interfaces
+3. Back-End Web Development
