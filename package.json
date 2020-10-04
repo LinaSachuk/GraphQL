@@ -1,5 +1,5 @@
 {
-  "name": "graphql",
+  "name": "graphql_learn",
   "version": "1.0.0",
   "description": "GraphQL—a query language for APIs that was originally built by Facebook—allows developers to choose the kinds of requests they want to make, and receive information on multiple facets of that query in one request. The GraphQL approach to querying across networks can address a wide variety of large-scale development problems.",
   "main": "index.js",
@@ -19,6 +19,8 @@
   "homepage": "https://github.com/LinaSachuk/GraphQL#readme",
   "dependencies": {
     "express": "^4.17.1",
+    "express-graphql": "^0.11.0",
+    "graphql": "^15.3.0",
     "nodemon": "^2.0.4"
   },
   "devDependencies": {
