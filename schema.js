@@ -2,7 +2,7 @@
 
 
 import { resolvers } from './resolvers';
-import { makeExecutableSchema } from 'graphql';
+import { makeExecutableSchema } from 'graphql-tools';
 
 const type = `
     type Friend{
