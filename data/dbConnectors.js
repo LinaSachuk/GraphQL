@@ -9,7 +9,6 @@ mongoose.connect('mongodb://localhost/friends', {
     useMongoClient: true
 });
 
-
 const friendSchema = new mongoose.Schema({
     firstName: {
         type: String
@@ -32,13 +31,11 @@ const friendSchema = new mongoose.Schema({
     contacts: {
         type: Array
     }
-
 });
 
 const Friends = mongoose.model('friends', friendSchema);
 
-
-// SQL
+// SQL 
 const sequelize = new Sequelize('database', null, null, {
     dialect: 'sqlite',
     storage: './aliens.sqlite',
@@ -53,8 +50,8 @@ const Aliens = sequelize.define('aliens', {
 Aliens.sync({ force: true }).then(() => {
     _.times(10, (i) => {
         Aliens.create({
-            firstName: casual._first_name,
-            lastName: casual._last_name,
+            firstName: casual.first_name,
+            lastName: casual.last_name,
             planet: casual.word,
         });
     });
